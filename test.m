@@ -3,7 +3,7 @@ x=[1,3,2];
 y=[1;3;2];
 x;
 y;
-% use colon ; to not execute instructions %
+% use colon ; to not display output of instruction %
 % declare matrices %
 A=[1,2,3;3,4,5;6,7,8];
 A;

@@ -19,7 +19,9 @@ for i=1:10
   x_current=x_prev-(double(y(x_prev))/double(y_p(x_prev)));
 
   error=abs((x_current-x_prev)/x_current)*100;
-  fprintf("%d %f %f %d\n",i,x_current,error,4)
+  significant_digit=2-log(2*error);
+
+  fprintf("%d %f %f %d\n",i,x_current,error,significant_digit)
 endfor
 
 

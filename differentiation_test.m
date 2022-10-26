@@ -18,8 +18,8 @@ y_prime=diff(y_p);
 y_prime
 
 % for ploting %
-
 plot(p,y(p),p,double(y_prime(p)))
+
 % plugging in the value in to the diff. ted function %
 y_prime=y_prime(p)
 
